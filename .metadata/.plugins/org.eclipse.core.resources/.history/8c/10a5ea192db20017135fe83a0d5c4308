@@ -1,0 +1,6 @@
+<html>
+<body>
+<h1>Congratulations! form Successfully proceed</h1>
+<h2>${message}</h2>
+</body>
+</html>

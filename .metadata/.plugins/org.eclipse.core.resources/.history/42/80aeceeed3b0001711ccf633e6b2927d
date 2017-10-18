@@ -1,0 +1,10 @@
+<html>
+<body>
+<h1>Register your form</h1>
+<form action="/save" method="post">
+<p>Student'Name:<input>
+
+
+</form>
+
+</body></html>

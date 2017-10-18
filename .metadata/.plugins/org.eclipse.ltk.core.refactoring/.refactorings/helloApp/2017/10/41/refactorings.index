@@ -1,0 +1,17 @@
+1507871457364	Rename type 'HelloWorldConfiguration'
+1507871462126	Delete element
+1507871550390	Rename type 'SecurityWebApplicationinitializee'
+1507871574738	Rename type 'MessagingConfiguration'
+1507871580647	Delete element
+1507872141835	Rename type 'ProducerApplication'
+1507872239465	Rename package 'com.bridgeit.controller'
+1507872275751	Rename type 'HelloWorldController'
+1507873890301	Delete element
+1507873900553	Rename compilation unit 'MailService1.java'
+1507873990657	Delete element
+1507874001139	Rename compilation unit 'MailService.java'
+1507886621070	Rename package 'com.bridgeit.model'
+1507886650264	Rename type 'CustomerInfo'
+1507886688018	Delete element
+1507886711015	Rename package 'com.bridgeit.service'
+1507886753293	Rename type 'MailServiceImpl'

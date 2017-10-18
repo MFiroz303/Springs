@@ -1,0 +1,7 @@
+package com.bridgeit.controller;
+
+public @interface IsValidHobby {
+	
+	String message() default "please emter a valid information"
+
+}

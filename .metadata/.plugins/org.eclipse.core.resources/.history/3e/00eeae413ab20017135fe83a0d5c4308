@@ -1,0 +1,32 @@
+<html>
+<body>
+	<h1>${message}</h1>
+	<h3>Register your form</h3>
+
+	<form action="/SampleApp/studentAdmissionform.html" method="post">
+		<table>
+			<tr>
+				<td>Student'Name:     <input type="text" name="studentName" /></td>
+			</tr>
+			<tr>
+				<td>Stuent'Hobby:     <input type="text" name="studentHobby" /></td>
+			</tr>
+			<tr>
+				<td>Student'Mobile:   <input type="text" name="studentMobile" /></td>
+			</tr>
+			<tr>
+				<td>Student'DOB:      <input type="text" name="studentDOB" /></td>
+			</tr>
+			<td>Student'Skills set:</td>
+			<td><select name="studentSkills" multiple>
+					<option value="Core java">Core Java</option>
+					<option value="Spring core">Spring Core</option>
+					<option value="Spring MVc">Spring MVC</option>
+			</select> 
+		    <input type="submit" value="By Clicking Here">
+			
+			</table>	
+	</form>
+
+</body>
+</html>

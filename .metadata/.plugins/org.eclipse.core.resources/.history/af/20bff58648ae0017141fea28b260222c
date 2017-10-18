@@ -1,0 +1,15 @@
+package com.bridgeit.Test;
+
+public class A {
+	public B b;
+	
+	//using setter dependency
+	public void setB(B b){
+		this.b = b;
+	}
+		public void communicate(){
+
+			b.sendMessage();
+	}
+
+}

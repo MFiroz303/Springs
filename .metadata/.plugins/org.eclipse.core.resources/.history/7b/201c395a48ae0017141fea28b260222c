@@ -1,0 +1,14 @@
+package com.bridgeit.Test;
+
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class C implements B{
+
+	public void sendMessage() {
+	System.out.println("sending message via C");
+		
+	}
+
+	
+}

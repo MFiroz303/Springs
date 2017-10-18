@@ -1,0 +1,10 @@
+package com.bridgeit.controller;
+
+public @interface IsValidHobby {
+	
+	String message() default "please provide a vlaid Hobby;" +
+	                  "Accepted Hobbies are - Music, Football, Cricket, Hokey(choose any one)";
+	    Class<?> groups() default{};
+	    Class<? extends payload>[] payload() default{};
+
+}

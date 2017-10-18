@@ -1,0 +1,14 @@
+package com.bridgeit.service;
+
+import java.time.LocalDate;
+
+import org.springframework.stereotype.Service;
+
+@Service("DateService")
+public class DateServiceImpl implements DateService{
+	public LocalDate getAssessmentdate(){
+		
+		return new LocalDate(2017,10,10);
+	}
+
+}

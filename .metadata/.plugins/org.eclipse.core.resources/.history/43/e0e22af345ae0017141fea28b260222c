@@ -1,0 +1,7 @@
+package com.bridgeit.Test;
+
+public interface A {
+	 void sayHello(String name);
+	
+
+}

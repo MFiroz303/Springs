@@ -1,0 +1,9 @@
+package com.bridgeit.Test;
+
+public class B implements A{
+	public void sayHello(String name) {
+		System.out.println("Hello "+name);
+		
+	}
+
+}

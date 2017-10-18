@@ -1,0 +1,6 @@
+package com.bridgeit.Test;
+
+public class A {
+	public B b;
+
+}

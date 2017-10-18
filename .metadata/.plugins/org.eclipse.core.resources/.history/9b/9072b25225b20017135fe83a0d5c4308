@@ -1,0 +1,11 @@
+<html>
+<body>
+<h1>Register your form</h1>
+<form action="/SampleApp/studentAddmissionform.html" method="post">
+<p>Student'Name:<input type="text"  value="studentName" />
+<p>Stuent'Hobby:<input type="text" value="studentHobby" />
+
+<input type="submit" value="By Clicking Here">
+</form>
+
+</body></html>

@@ -1,0 +1,31 @@
+package com.bridgeit.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.servlet.ModelAndView;
+
+@Controller
+public class StudentAddmissinController {
+	
+	@RequestMapping(value="/admissionform.html", method = RequestMethod.GET)
+	public ModelAndView getAddmissionForm(){
+		ModelAndView model = new ModelAndView("admission");
+		return model;
+		
+	}
+	@RequestMapping(value="/studentAdmissionform.html", method = RequestMethod.POST)
+	public ModelAndView submitAddmissionForm(@RequestParam("studentName") String name, @RequestParam("studentHobby") String hobby ){
+		
+		Student student = new Student();	
+		student.setStudentName(name);
+		student.setStudentHobby(hobby);
+		
+		ModelAndView model1 = new ModelAndView("admissionDone");
+		model1.addObject("message", "BridgeLabz,mumbai");
+	    model1.addObject("student", student);
+		return model1;
+		
+	}
+}

@@ -1,0 +1,25 @@
+package com.bridgeit.controller;
+
+public class Student {
+
+	private String studenttName;
+
+	private String studenthobby;
+
+	public String getStudenttName() {
+		return studenttName;
+	}
+
+	public void setStudenttName(String studenttName) {
+		this.studenttName = studenttName;
+	}
+
+	public String getStudenthobby() {
+		return studenthobby;
+	}
+
+	public void setStudenthobby(String studenthobby) {
+		this.studenthobby = studenthobby;
+	}
+
+}

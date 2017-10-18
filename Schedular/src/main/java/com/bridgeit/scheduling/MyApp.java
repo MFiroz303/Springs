@@ -1,0 +1,11 @@
+package com.bridgeit.scheduling;
+
+import org.springframework.context.support.AbstractApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class MyApp {
+	 public static void main(String args[]){
+	        AbstractApplicationContext context = new ClassPathXmlApplicationContext("app-config.xml");
+	 
+	 }
+}
