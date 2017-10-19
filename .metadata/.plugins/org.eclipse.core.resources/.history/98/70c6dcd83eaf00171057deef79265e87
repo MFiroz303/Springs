@@ -1,7 +1,0 @@
-package com.bridgeit.Test;
-
-public interface B{
-	 void sendMessage();
-	
-
-}

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <modules>
   <module moduleId="org.eclipse.jst.j2ee.server:SampleApp" serverId="Tomcat v8.5 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.j2ee.server:CrudRestService" serverId="Tomcat v8.5 Server at localhost"/>
   <module moduleId="org.eclipse.jst.j2ee.server:helloApp" serverId="Tomcat v8.5 Server at localhost"/>
   <module moduleId="org.eclipse.jst.j2ee.server:Sample" serverId="Tomcat v8.5 Server at localhost"/>
   <module moduleId="org.eclipse.jst.j2ee.server:HelloSpring" serverId="Tomcat v8.5 Server at localhost"/>

@@ -1,0 +1,59 @@
+package com.bridgeit.controller;
+
+@RestController
+public class REST1Controller {
+	
+	@Autowired
+	UserService userService;
+
+	@RequestMapping(value = "/user/id/{id}", method = RequestMethod.GET)
+	public ResponseEntity<User> findById(@PathVariable("id") int id) {
+		User user = userService.findById(id);
+		if (user == null) {
+			return new ResponseEntity<User>(HttpStatus.NO_CONTENT);
+		} else {
+			return new ResponseEntity<User>(user, HttpStatus.OK);
+		}
+	}
+
+	@RequestMapping(value = "/user/name/{name}", method = RequestMethod.GET)
+	public ResponseEntity<User> findByName(@PathVariable("name") String name) {
+		User user = userService.findByName(name);
+		if (user == null) {
+			return new ResponseEntity<User>(HttpStatus.NO_CONTENT);
+		} else {
+			return new ResponseEntity<User>(user, HttpStatus.OK);
+		}
+	}
+
+	@RequestMapping(value = "/add", method = RequestMethod.POST)
+	public ResponseEntity<Void> saveUser(@RequestBody User user) {
+		userService.saveUser(user);
+		return new ResponseEntity<Void>(HttpStatus.OK);
+	}
+
+	@RequestMapping(value = "/update", method = RequestMethod.PUT)
+	public ResponseEntity<Void> updateUser(@RequestBody User user) {
+		userService.updateUser(user);
+		return new ResponseEntity<Void>(HttpStatus.OK);
+	}
+
+	@RequestMapping(value = "/delete/{id}", method = RequestMethod.DELETE)
+	public ResponseEntity<Void> deleteUserById(@PathVariable("id") int id) {
+		userService.deleteUserById(id);
+		return new ResponseEntity<Void>(HttpStatus.OK);
+	}
+
+	@RequestMapping(value = "/list", method = RequestMethod.GET)
+	public ResponseEntity<List<User>> findAllUsers() {
+		List<User> list = userService.findAllUsers();
+		
+		if (list == null) {
+			return new ResponseEntity<List<User>>(HttpStatus.NO_CONTENT);
+		} else {
+			return new ResponseEntity<List<User>>(list, HttpStatus.OK);
+		}
+	}
+}
+
+}

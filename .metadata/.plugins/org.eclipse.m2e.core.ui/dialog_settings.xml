@@ -44,6 +44,9 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="/home/bridgeit/workspace/SpringWorkspace/SpringHibernateintgrtn/src/main/java"/>
+			<item value="/home/bridgeit/workspace/SpringWorkspace/CRUDRest/pom.xml"/>
+			<item value="/home/bridgeit/workspace/SpringWorkspace/SpringHibernateintgrtn"/>
 			<item value="/home/bridgeit/workspace/SpringWorkspace/HelloSpring/target/HelloSpring.war"/>
 			<item value="/home/bridgeit/workspace/SpringWorkspace/Helloworld"/>
 			<item value="/home/bridgeit/workspace/SpringWorkspace/AutoScanning"/>
@@ -62,6 +65,8 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.bridgeit.CrudRestService"/>
+			<item value="com.bridgeit.CRUDRestService"/>
 			<item value="com.bridgeit.Sample"/>
 			<item value="com.bridgeit.HelloSpring"/>
 			<item value="com.bridgeit.SampleApp"/>
@@ -72,6 +77,8 @@
 			<item value="com.bridgeit"/>
 		</list>
 		<list key="artifactId">
+			<item value="CrudRestService"/>
+			<item value="CRUDRestService"/>
 			<item value="Sample"/>
 			<item value="HelloSpring"/>
 			<item value="SampleApp"/>

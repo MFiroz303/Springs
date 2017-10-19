@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 3 packages to &apos;CrudRestService/src/main/java&apos;&#x0A;- Original project: &apos;SpringHibernateintgrtn&apos;&#x0A;- Destination element: &apos;CrudRestService/src/main/java&apos;&#x0A;- Original elements:&#x0A;     SpringHibernateintgrtn/src/main/java/com.bridgeit.DAO&#x0A;     SpringHibernateintgrtn/src/main/java/com.bridgeit.model&#x0A;     SpringHibernateintgrtn/src/main/java/com.bridgeit.service&#x0A;- Update references to refactored element" description="Move packages" destination="=CrudRestService/src\/main\/java" element1="/src\/main\/java&lt;com.bridgeit.DAO" element2="/src\/main\/java&lt;com.bridgeit.model" element3="/src\/main\/java&lt;com.bridgeit.service" flags="589830" fragments="3" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1508319567462" version="1.0"/>
+</session>

@@ -1,9 +1,0 @@
-package com.bridgeit.scheduling;
-
-public class MyBean {
-	public void printMessage(){
-		System.out.println("i am calling by scheduler");
-		
-	}
-
-}

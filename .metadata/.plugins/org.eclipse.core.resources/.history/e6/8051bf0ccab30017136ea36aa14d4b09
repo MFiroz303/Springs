@@ -1,0 +1,18 @@
+package com.bridgeit.configuration;
+
+public class Initializer {
+
+	
+	    protected Class<?>[] getRootConfigClasses() {
+	        return new Class[] { Configuration.class };
+	    }
+	   
+	    protected Class<?>[] getServletConfigClasses() {
+	        return null;
+	    }
+	   
+	 
+	    protected String[] getServletMappings() {
+	        return new String[] { "/" };
+	    }
+}
